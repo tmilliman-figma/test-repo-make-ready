@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/../.."
+npm run build
+figma make deploy-preview --build-dir dist

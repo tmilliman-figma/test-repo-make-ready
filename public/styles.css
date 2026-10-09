@@ -1,0 +1,16 @@
+:root { font-family: system-ui, sans-serif; color: #17243a; background: #f1f5fb; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(680px, 100%); margin: 8vh auto; padding: 32px; }
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 2px; color: #335fc7; }
+h1 { margin: 22px 0; font-size: clamp(36px, 7vw, 58px); line-height: 1.08; letter-spacing: -2px; }
+.intro { font-size: 19px; color: #56647b; line-height: 1.6; }
+section { margin-top: 32px; padding: 28px; border: 1px solid #dce3ef; border-radius: 18px; background: #fff; box-shadow: 0 14px 40px #17243a0a; }
+.badge { display: inline-block; padding: 7px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; color: #126246; background: #e8f7ef; }
+h2 { margin-top: 22px; font-size: 24px; }
+section p { line-height: 1.7; color: #56647b; }
+button { margin-top: 8px; border: 0; border-radius: 9px; padding: 13px 18px; font: inherit; font-weight: 600; color: white; background: #335fc7; cursor: pointer; }
+button:hover { background: #264ca8; }
+button:focus-visible { outline: 3px solid #17243a; outline-offset: 4px; }
+#result { font-size: 14px; min-height: 48px; }
+.footer { font-size: 13px; color: #64748b; margin-top: 24px; }

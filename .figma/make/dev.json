@@ -1,0 +1,6 @@
+{
+  "port": 3000,
+  "scheme": "http",
+  "installOn": ["package.json", "package-lock.json"],
+  "restartOn": ["scripts/server.mjs"]
+}
